@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: dodgerblue;
+    font-family: trebuchet ms, sans-serif;
+    background: center;
+    background-image: url('../img/sfondo.jpg'); /* Cambia il percorso con il percorso effettivo dell'immagine */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background: rgb(0,112,255);
+	background: linear-gradient(90deg, rgba(0,112,255,1) 0%, rgba(149,213,255,1) 50%, rgba(0,155,255,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 30px;
+    font-size: 1.3em;
+    position: fixed;
+    top: 0; 
+    width: 98%;
+    box-shadow: rgba(0, 0, 0, 0.1) 4px 8px 16px;
+    z-index: 9;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-link {
+    color: black;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #ff8c00;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-center{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px;
+}
+.content {
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 100px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.content p {
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+}
+
+.site-footer {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.site-header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-title {
+    font-size: 24px;
+    margin: 0;
+}
+.site-description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.content-block {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.content-block-site{
+	background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 240px;
+}
+
+.content-block-course{
+	background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 240px;
+}
+
+.content-block-teacher{
+	background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 240px;
+}
+
+.content-block h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.content-block p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.block-container{
+	display: grid;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.block-container-home{
+	display: flex;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(90deg, rgba(0,112,255,1) 0%, rgba(149,213,255,1) 50%, rgba(0,155,255,1) 100%);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 300px;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgb(0, 128, 255) 0 3px 8px;
+}
